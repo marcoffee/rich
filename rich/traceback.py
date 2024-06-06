@@ -740,7 +740,7 @@ class Traceback:
                         ),
                         highlight_lines={frame.lineno},
                         word_wrap=self.word_wrap,
-                        code_width=88,
+                        code_width=None,
                         indent_guides=self.indent_guides,
                         dedent=False,
                     )
